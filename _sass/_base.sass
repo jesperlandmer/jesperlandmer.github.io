@@ -1,17 +1,45 @@
+@import "../_sass/precomps.sass"
+
 body
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif
   color: #111
   background-color: #fdfdfd
+  overflow-x: hidden
+  margin: 0
+  position: absolute
+  width: 100%
+
+header
+  width: 100%
+
+nav
+  display: inline-block
+  width: auto
+  float: right
+  overflow: hidden
+
+nav li
+  display: inline-block
+
 
 footer
-  position: absolute
-  right: 0
-  bottom: 0
-  left: 0
-  background-color: #efefef
-  text-align: center
-  padding-bottom: 70px
+  clear: both
+  width: 100%
+  margin: auto
+  background-color: $border-bg-color
+  color: $primary-text-color
+  padding-top: 40px
+  padding-bottom: 40px
 
 h1,h2,h3,h4,h5,h6
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif
   color: #cccccc
+
+a
+  color: $primary-text-color
+  text-decoration: none
+  a:visited
+    color: #1756a9
+  a:hover
+    color: $hover-color
+    text-decoration: underline

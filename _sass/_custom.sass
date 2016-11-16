@@ -1,34 +1,135 @@
-.content
-  width: 80%
-  margin: 0 auto
-  background-color: #e8e8e8
+@import "../_sass/precomps.sass"
 
 .post-content
-  background-color: #e8e8e8
+  background-color: $post-bg-color
+  padding: 60px
+  box-shadow: $bar-shadow
 
-.site-header
-  border-top: 5px solid #424242
-  border-bottom: 1px solid #e8e8e8
-  min-height: 56px
-  position: relative
+.post-content ul
+  list-style-type: none
+
+.post-content a:hover
+  color: $hover-color
+  text-decoration: underline
+
+.post-content
+  margin-bottom: $header-footer-margin
+  float: left
+  border-radius: 25px
+  .post-content h2
+    font-size: 32px
 
 .wrapper
-  max-width: -webkit-calc(800px - (30px * 2))
-  max-width: calc(800px - (30px * 2))
-  margin-right: auto
-  margin-left: auto
+  max-width: -webkit-$calc-width
+  max-width: $calc-width
+  margin-top: 50px
   padding-right: 30px
   padding-left: 30px
+
+.sidebar
+  width: 300px
+  float: right
+  margin-right: 30px
+
+.sidebar-outline
+  background-color: $border-bg-color
+  padding: 1px
+  box-shadow: $bar-shadow
+  text-align: center
+
+.sidebar-text
+  color: $primary-text-color
+  text-decoration: none
+  letter-spacing: -1px
+  line-height: 1
 
 .post-header
   margin-bottom: 30px
 
 .post-title
-  font-size: 42px
+  font-size: 32px
   letter-spacing: -1px
   line-height: 1
 
-.post-content
-  margin-bottom: 30px
-  .post-content h2
-    font-size: 32px
+.post-border
+  border-bottom: 1px solid #111111
+  margin: 40px 25px 40px 1px
+  text-align: center
+
+.profile-pic
+  height: 200px
+  padding: 40px
+  margin-top: -20px
+
+#header
+  background: none repeat scroll 0 0 $border-bg-color
+  box-shadow: $menu-shadow
+  float: left
+  margin: 0 auto
+  width: 100%
+  margin-bottom: $header-footer-margin
+
+.nav-title
+  float: left
+  height: 60px
+  margin-left: 50px
+
+.nav-primary
+  float: right
+  margin: 0
+  padding: 0
+
+.nav-primary li
+  margin: 0
+  padding: 0
+  display: inline-block
+  height: 40px
+  list-style: none
+
+.nav-primary li:last-child a
+  border-right: $border-line
+
+.nav-primary a
+  border-left: $border-line
+  color: $primary-text-color
+  float: right
+  height: 11px
+  line-height: 1
+  padding: $nav-padding
+  text-decoration: none
+
+.nav-wrap
+  float: left
+  height: auto
+  min-height: 100%
+  width: 100%
+
+.footer-primary
+  padding: 0
+
+.footer-primary li
+  margin: 0
+  padding: 0
+  display: inline-block
+  height: 40px
+  list-style: none
+
+.footer-primary li:last-child a
+  border-right: $border-line
+
+.footer-primary a
+  border-left: $border-line
+  color: $primary-text-color
+  float: right
+  height: 11px
+  line-height: 1
+  padding: $nav-padding
+  text-decoration: none
+
+.footer-name
+  float: right
+  margin-right: 20px
+
+.icon
+  vertical-align: middle
+  height: 25px

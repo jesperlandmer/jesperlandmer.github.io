@@ -2,6 +2,13 @@
 layout: default
 ---
 
-<div class="content">
-    <h1>Post</h1>
+<div class="wrapper">
+    <div class="post-content">
+        <ul >
+            {% for post in site.categories.posts %}
+            <li><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></li>
+            <p>{{ post.excerpt }}</p>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
