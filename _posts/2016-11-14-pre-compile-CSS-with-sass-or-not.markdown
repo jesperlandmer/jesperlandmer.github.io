@@ -6,7 +6,7 @@ categories: posts
 source: http://sass-lang.com/guide
 ---
 So what is the main difference between CSS and SASS? 
-Well, SASS is an extension of CSS that spits out a more powerful and a more well-structured CSS. 
+Well, SASS is an extension of CSS that spits out a more powerful and a more well-structured CSS. <!--more-->
 It's an addition to the standard CSS, and adds helpful features 
 that regular CSS lacks(like variables, nested selectors, mixins, operators and more).
 

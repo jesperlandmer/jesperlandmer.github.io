@@ -6,7 +6,7 @@ categories: posts
 ---
 
 Nowadays, information and marketing thrives on social media. For just a small amount of money, you could reach thousands with
-whatever you want to market. Perhaps you want to market your website? But first, make sure you have your open graph ready.
+whatever you want to market. <!--more-->Perhaps you want to market your website? But first, make sure you have your open graph ready.
 
 ### What is Open Graph?
 The Open Graph Protocol is a way of making any web page a much more attractive object in social graphs. For instance, it can

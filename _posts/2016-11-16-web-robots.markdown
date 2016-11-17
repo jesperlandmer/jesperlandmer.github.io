@@ -5,7 +5,7 @@ date:   2016-11-16 10:34:50 +0000
 categories: posts
 ---
 Web Robots are programs that explores and crosses the web, and are especially used frequently by search engines. Most 
-search engines uses them to index the web content or to get certain information. 
+search engines uses them to index the web content or to get certain information.<!--more-->
 
 The web page authors have the possibility of giving the robots instructions on what content that should be indexed. 
 By creating a robots.txt-file in your root-directory, you have the option to block the robots you don't want snooking around, or 

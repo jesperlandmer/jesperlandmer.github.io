@@ -25,10 +25,19 @@
   padding-right: 30px
   padding-left: 30px
 
+  a:hover
+    color: $hover-color
+    text-decoration: underline
+
 .sidebar
   width: 300px
   float: right
   margin-right: 30px
+
+  a:hover
+    color: $hover-color
+    text-decoration: underline
+
 
 .sidebar-outline
   background-color: $border-bg-color
@@ -69,6 +78,9 @@
   margin-bottom: $header-footer-margin
   padding-bottom: 3px
 
+  a:hover
+    color: $hover-color
+
 .nav-title
   float: left
   height: 60px
@@ -80,6 +92,11 @@
 .logo
   height: 55px
   padding: 4px
+
+.logo-footer
+  height: 55px
+  padding: 4px
+  float: right
 
 .nav-primary
   float: right
@@ -151,3 +168,7 @@
 .border-intro-color2
   border-color: #fff400
   margin-right: calc(100% / 10)
+
+.others
+  min-height: calc(100vh - 220px)
+  max-width: 100%

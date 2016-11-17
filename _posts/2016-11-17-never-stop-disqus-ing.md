@@ -6,7 +6,7 @@ categories: posts
 ---
 
 It's always nice to have a way to communicate, whether it is in real life or on the web. But how do you implement communication on 
-for example a blog page? With comments and online discussions of course! Being able to comment on blog posts or other pages is preferred by many, 
+for example a blog page? <!--more-->With comments and online discussions of course! Being able to comment on blog posts or other pages is preferred by many, 
 and is almost a standard when it comes to blogging. 
 
 ### But how do I make it available?
