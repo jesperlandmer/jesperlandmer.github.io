@@ -6,13 +6,12 @@ layout: default
     <div class="post-content">
         <ul>
             {% for post in site.categories.posts %}
-                <li><a href="{{site.url}}{{post.url}}" class="post-title">{{ post.title }}</a></li>
+                <li><div class="border-intro border-intro-color2">
+                    <a href="{{site.url}}{{post.url}}" class="post-title">{{ post.title }}</a></div></li>
                 <p><i>{{ post.date | date: '%B %d, %Y' }}</i></p>
                 <p>{{ post.excerpt }}...</p>
 
-            {% if post.excerpt != post.content %}
                 <a href="{{ site.url }}{{ post.url }}">Read more</a>
-            {% endif %}
 
             {% if forloop.last == false %}
             <div class="post-border"></div>

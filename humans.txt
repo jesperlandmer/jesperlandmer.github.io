@@ -1,0 +1,14 @@
+/* CREATOR */
+
+Author: Jesper Landmér Pedersen
+Contact: jp222vq@student.lnu.se
+Twitter: jesper_landmer
+Location: Gothenburg, Sweden
+
+/* SITE */
+
+Last update: 2016/11/18
+Language: English
+Standards: HTML5, CSS3
+Components: disqus
+SSG: Jekyll
